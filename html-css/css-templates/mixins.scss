@@ -1,0 +1,87 @@
+// оттенки серого, белого и черного
+$DarkGray: #65696D;
+$Gray: #888888;
+$LightGray: #EBEEF5;
+
+$PureBlack: #000000;
+$Black: #191E27;
+
+$White: #ffffff;
+$DarkWhite: #F5F6FA;
+
+
+// Media-выражения
+// @mixin desktop {
+// 	@media screen and (min-width: 740px) {
+// 		@content;
+// 	}
+// }
+
+// заготовка миксина для шрифтов
+
+// /* Headers */
+// @mixin h16() {
+// 	font-weight: 800;
+// 	font-size: 16px;
+// 	line-height: 21px;
+// }
+// @mixin h12() {
+// 	font-weight: 800;
+// 	font-size: 12px;
+// 	line-height: 16px;
+// }
+// /* Names */
+// @mixin n16() {
+// 	font-weight: bold;
+// 	font-size: 16px;
+// 	line-height: 21px;
+// 	@if $responsive {
+// 		@include md {
+// 			@include n14();
+// 		}
+// 	}
+// }
+// @mixin n14() {
+// 	font-weight: bold;
+// 	font-size: 14px;
+// 	line-height: 19px;
+// }
+
+// /* Paragraph */
+
+// @mixin p16() {
+// 	font-weight: 600;
+// 	font-size: 16px;
+// 	line-height: 27px;
+// }
+
+// @mixin p14() {
+// 	font-weight: 600;
+// 	font-size: 14px;
+// 	line-height: 23px;
+// }
+// /* Description */
+
+// @mixin d14() {
+// 	font-weight: 500;
+// 	font-size: 14px;
+// 	line-height: 21px;
+// }
+
+// @mixin d12() {
+// 	font-weight: 500;
+// 	font-size: 12px;
+// 	line-height: 18px;
+// }
+// /* Text */
+// @mixin t18() {
+// 	font-weight: 500;
+// 	font-size: 18px;
+// 	line-height: 30px;
+// }
+
+// @mixin t16() {
+// 	font-weight: 500;
+// 	font-size: 16px;
+// 	line-height: 27px;
+// }
