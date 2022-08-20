@@ -1,0 +1,8 @@
+@import 'src/constants/styles/colors';
+// Никаких внешних отступов (hello, БЭМ!)
+.example-component__title {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  color: $text-main-color;
+}

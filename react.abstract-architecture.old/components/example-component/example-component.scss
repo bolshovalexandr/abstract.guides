@@ -1,0 +1,16 @@
+@import 'src/constants/styles/width';
+
+.example-component {
+    padding: 40px 0 32px;
+    display: flex;
+
+    @media (min-width: $desktop-width) {
+        padding-bottom: 40px;
+    }
+
+    // внешние отступы элемента (hello, БЭМ)        
+    .example-component__title {
+        margin: 0 0 24px;
+    }
+
+}
