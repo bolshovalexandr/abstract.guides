@@ -26,17 +26,7 @@
 - устанавливаем на базе необходимые расширения из `0000_00_00_0002_extensions.sql`
 - **для пустой базы** .env-файл с пользователями по-умолчанию в корень проекта
 ```txt
-    CUSTOMCONNSTR_NpgsqlConnectionString="host=172.30.67.132;username=postgres;password=PGroot;port=5432;database=G1"
-    JWT__Secret="6Lrg8Io0MPs6WnNHYCPTJOSgCK1mZGy1aRQwsPHvQ9Y/T7v09P0BwV6zr66VP8BzwaXux2PdMni1zLreflaMtg=="
-    FCMConfig__ApiToken="AAAASCfaQ3E:APA91bFAfRrbbd-VIkvqLw9Wq_n5JqnqLZRmILG7jsSMTkv9UifhWu_wB0at7-hFCpUFKuVes3pg3RGr-uy60rZoyABzFLBF9_xxqN3yOp4aK2LH3690jpL9GcABfoWUoc-hZnDCWdNc"
-    DefaultUsers__0__Name="Super"
-    DefaultUsers__0__Surname="User"
-    DefaultUsers__0__Login="superuser"
-    DefaultUsers__0__Email="superuser@org1.ru"
-    DefaultUsers__0__Roles__0="Admin"
-    DefaultUsers__0__Roles__1="Moderators"
-    DefaultUsers__0__Roles__2="SystemOperators"
-    DefaultUsers__0__Password="Z123456z!"
+
 ```
 - пример строки подключения `Server=localhost; User Id=postgres; Password=PGroot; Port=5432; Database=gandiva_test`
 
