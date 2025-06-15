@@ -222,5 +222,5 @@ module.exports = {
 ```js
 	stylelint: {
 		emitWarning: true
-	},
+	}
 ```
